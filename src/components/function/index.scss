@@ -1,0 +1,3 @@
+@function ptr($px) {
+    @return $px/100 * 750/375 * 1rem;
+}
