@@ -7,24 +7,20 @@
 				<span>前端开发</span>
 			</li>
 			<li>
-				<img src="../assets/web.png" />
+				<img src="../assets/webservice.png" />
 				<span>后端开发</span>
 			</li>
 			<li>
-				<img src="../assets/web.png" />
+				<img src="../assets/move.png" />
 				<span>移动开发</span>
 			</li>
 			<li>
-				<img src="../assets/web.png" />
+				<img src="../assets/data.png" />
 				<span>数据库</span>
 			</li>
 			<li>
-				<img src="../assets/web.png" />
+				<img src="../assets/bigdata.png" />
 				<span>云计算</span>
-			</li>
-			<li>
-				<img src="../assets/web.png" />
-				<span>大数据</span>
 			</li>
 		</ul>
 		<v-course :arrList="array"></v-course>

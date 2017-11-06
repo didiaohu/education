@@ -3,19 +3,19 @@
 		<ul class="footer-ul">
 			<li>
 				<img src="../../assets/home.png">
-				<span>123</span>
+				<span>首页</span>
 			</li>
 			<li>
-				<img src="../../assets/home.png">
-				<span>123</span>
+				<img src="../../assets/sea.png">
+				<span>发现</span>
 			</li>
 			<li>
-				<img src="../../assets/home.png">
-				<span>123</span>
+				<img src="../../assets/download.png">
+				<span>下载</span>
 			</li>
 			<li>
-				<img src="../../assets/home.png">
-				<span>123</span>
+				<img src="../../assets/me.png">
+				<span>我的</span>
 			</li>
 		</ul>
 	</div>
