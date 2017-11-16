@@ -19,37 +19,34 @@
 		}
 	}
 </script>
-<style lang="scss" scoped>
-	@import "../function/index.scss";
+<style scoped>
 
 	.c-header{
 		position: fixed;
 		z-index: 3;
-		width: ptr(375);
+		width: 7.5rem;
 		top: 0;
 		background: #fff;
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-		.header-ul{
-			li{
-				display: inline-block;
-				padding-left: ptr(20);
-				color: #71777D;
-				font-size: ptr(14);
-				height: ptr(44);
-				line-height: ptr(44);
-			}
-			.header-search{
-				padding-left: ptr(59);
-				img{
-					width: ptr(18);
-				}
-			}
-			.header-history{
-				padding-left: ptr(20);
-				img{
-					width: ptr(18);
-				}
-			}
-		}
+	}
+	.header-ul li{
+		display: inline-block;
+		padding-left: 0.4rem;
+		color: #71777D;
+		font-size: 0.28rem;
+		height: 0.88rem;
+		line-height: 0.88rem;
+	}
+	.header-ul .header-search{
+		padding-left: 1.18rem;
+	}
+	.header-search img{
+		width: 0.36rem;
+	}
+	.header-ul .header-history{
+		padding-left: 0.4rem;
+	}
+	.header-history img{
+		width: 0.36rem;
 	}
 </style>

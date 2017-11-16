@@ -44,74 +44,70 @@
 		}
 	}
 </script>
-<style lang="scss" scoped>
-	@import "../components/function/index.scss";
-	.detail-page{
-		.video{
-			position: relative;
-			height: ptr(191);
-			video{
-				width: 100%;
-				height: 100%;
-			}
-			&-back{
-				position: absolute;
-				top: ptr(21);
-				left: ptr(16);
-				text-align: center;
-				color: #fff;
-				font-size: ptr(18);
-				line-height: ptr(32);
-				border-radius: 3px;
-				width: ptr(32);
-				height: ptr(32);
-				background: rgba(0,0,0,.5);
-			}
-		}
-		.nav{
-			display: flex;
-			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-			li{
-				flex: 1;
-				text-align: center;
-				height: ptr(44);
-				line-height: ptr(44);
-				background: #fff;
+<style scoped>
 
-			}
-		}
-		.title{
-			padding: ptr(24) 0 0 ptr(20);
-			background : #fff;
-			margin-bottom: ptr(8);
-			h1{
-				font-size: ptr(16);
-				color: #2B333B ;
-			}
-			p{
-				font-size: ptr(14);
-				color: #71777D;
-				padding : ptr(16) 0 ptr(34);
-				width: ptr(335);
-			}
-		}
-		.question{
-			padding:ptr(20);
-			background: #fff;
-			li{
-				h1{
-					font-size: ptr(14);
-					color: #2B333B; 
-				}
-				p{
-					padding:ptr(12) 0 0 ptr(30);
-					font-size: ptr(14);
-					color: #71777D ; 
-				}
-			}
-			li:nth-child(1){
-				padding-bottom: ptr(24);
-			}
-		}
+	.video{
+		position: relative;
+		height: 3.82rem;
+	}
+	.video video{
+		width: 100%;
+		height: 100%;
+	}
+	.video-back{
+		position: absolute;
+		top: 0.42rem;
+		left: 0.32rem;
+		text-align: center;
+		color: #fff;
+		font-size: 0.36rem;
+		line-height: 0.64rem;
+		border-radius: 3px;
+		width: 0.64rem;
+		height: 0.64rem;
+		background: rgba(0,0,0,.5);
+	}
+	.nav{
+		display: flex;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+	}
+	.nav li{
+		flex: 1;
+		text-align: center;
+		height: 0.88rem;
+		line-height: 0.88rem;
+		background: #fff;
+	}
+	.title{
+		padding: 0.48rem 0 0 0.4rem;
+		background : #fff;
+		margin-bottom: 0.16rem;
+	}
+	.title h1{
+		font-size: 0.32rem;
+		color: #2B333B ;
+	}
+	.title p{
+		font-size: 0.28rem;
+		color: #71777D;
+		padding : 0.32rem 0 0.68rem;
+		width: 6.7rem;
+	}
+	.question{
+		padding: 0.4rem;
+		background: #fff;
+		
+	}
+	.question li h1{
+		font-size: 0.28rem;
+		color: #2B333B; 
+	}
+	.question li p{
+		padding:0.24rem 0 0 0.6rem;
+		font-size: 0.28rem;
+		color: #71777D ; 
+	}
+	.question li:nth-child(1){
+		padding-bottom: 0.48rem;
 	}
 </style>

@@ -8,7 +8,7 @@
     
   </div>
 </template>
-<style lang="scss" scoped>
+<style scoped>
   #app{
       background: #F3F5F7;
       max-width: 750px;

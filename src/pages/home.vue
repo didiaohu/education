@@ -89,26 +89,23 @@
 		}
 	}
 </script>
-<style lang="scss" scoped>
-	@import "../components/function/index.scss";
+<style scoped>
 
-	.home-page{
-		.nav{
-			height: ptr(100);
-			padding-top: ptr(44);
-			background: #F3F5F7;
-			overflow-x: scroll;
-			white-space: nowrap;
-			li{
-				width: ptr(88);
-				display: inline-block;
-				text-align: center;
-				img{
-					display: block;
-					width: ptr(32);
-					margin: ptr(20) auto ptr(12);
-				}
-			}
-		}
+	.home-page .nav{
+		height: 2rem;
+		padding-top: 0.88rem;
+		background: #F3F5F7;
+		overflow-x: scroll;
+		white-space: nowrap;
+	}
+	.nav li{
+		width: 1.76rem;
+		display: inline-block;
+		text-align: center;
+	}
+	.nav li img{
+		display: block;
+		width: 0.64rem;
+		margin: 0.4rem auto 0.24rem;
 	}
 </style>

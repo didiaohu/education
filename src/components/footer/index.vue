@@ -20,28 +20,28 @@
 		</ul>
 	</div>
 </template>
-<style lang="scss" scoped>
-	@import "../function/index.scss";
+<style scoped>
+
 	.c-footer{
 		position: fixed;
 		z-index: 3;
-		width: ptr(375);
+		width: 7.5rem;
 		background: #fff;
 		border-top: 1px solid #F3F5F7;
 		bottom: 0;
-		.footer-ul{
-			display: flex;
-			li{
-				display: flex;
-				height: ptr(50);
-				flex: 1;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				img{
-					width: ptr(24);
-				}
-			}
-		}
+	}
+	.footer-ul{
+		display: flex;
+	}
+	.footer-ul li{
+		display: flex;
+		height: 1rem;
+		flex: 1;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-ul li img{
+		width: 0.48rem;
 	}
 </style>

@@ -16,31 +16,33 @@
 		}
 	}
 </script>
-<style lang="scss" scoped>
-	@import "../function/index.scss";
+<style scoped>
+
 	.c-course{
-		padding: ptr(24) 0;
+		padding: 0.48rem 0;
 		background: #fff;
-		li{
-			position: relative;
-			width: ptr(335);
-			height: ptr(72);
-			margin : 0 auto ptr(24);
-			img{
-				position: absolute;
-				width: ptr(108);
-				border-radius: 5px;
-			}
-			h1{
-				font-size: ptr(15);
-				padding-left: ptr(124);
-				color: #2B333B;
-			}
-			p{
-				font-size: ptr(12);
-				padding: ptr(8) 0 0 ptr(124);
-				color: #71777D;
-			}
-		}
+		
+	}
+	.c-course li{
+		position: relative;
+		width: 6.7rem;
+		height: 1.44rem;
+		margin : 0 auto 0.48rem;
+		
+	}
+	.c-course li img{
+		position: absolute;
+		width: 2.16rem;
+		border-radius: 5px;
+	}
+	.c-course li h1{
+		font-size: 0.3rem;
+		padding-left: 2.48rem;
+		color: #2B333B;
+	}
+	.c-course li p{
+		font-size: 0.24rem;
+		padding: 0.16rem 0 0 2.48rem;
+		color: #71777D;
 	}
 </style>
